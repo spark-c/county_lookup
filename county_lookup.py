@@ -61,3 +61,12 @@ else:
 
 
 # handle success response
+for i in result["results"][0]["address_components"]:
+	if "administrative_area_level_2" not in i["types"]:
+		print(f"SKIP {i['types']}")
+		continue
+	else:
+		print(f"FOUND {i['types']}")
+		county = i["short_name"]
+		break
+print(county)
