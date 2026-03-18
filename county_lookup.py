@@ -3,6 +3,8 @@
 # Collin Sparks 3/18/2026
 
 import pyperclip
+from urllib import 
+from .google_geocode_api_key import key as geocode_api_key
 
 # (fake addr for testing)
 #street, addr_line2 = "28 Eckard's Way\nCooper's Hawk, NM 87532-12345".split("\n")
@@ -16,4 +18,7 @@ print(f"street: {street}")
 print(f"city: {city}")
 print(f"state: {state}")
 print(f"zipcode: {zipcode}")
+
+# https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY
+#url = f"https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key={geocode_api_key}"
 
