@@ -1,5 +1,8 @@
 altgraph @ file:///AppleInternal/Library/BuildRoots/4~CGYkugDNMJDPussZJfa8Q7q7wDj7yZMIh_VI6H4/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
+beautifulsoup4==4.14.3
 future @ file:///AppleInternal/Library/BuildRoots/4~CGYkugDNMJDPussZJfa8Q7q7wDj7yZMIh_VI6H4/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
 macholib @ file:///AppleInternal/Library/BuildRoots/4~CGYkugDNMJDPussZJfa8Q7q7wDj7yZMIh_VI6H4/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
 pyperclip==1.11.0
 six @ file:///AppleInternal/Library/BuildRoots/4~CGYkugDNMJDPussZJfa8Q7q7wDj7yZMIh_VI6H4/Library/Caches/com.apple.xbs/Sources/python3/six-1.15.0-py2.py3-none-any.whl
+soupsieve==2.8.3
+typing_extensions==4.15.0
